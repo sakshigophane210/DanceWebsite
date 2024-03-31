@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+    script(src = '/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection
+        div Welcome to Nrutya's dance academy 
+        div.small Eat Dance Sleep Repeat
+
+    section#missionSection
+        h2 Our mission
+
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="static/img/1.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="static/img/1.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 expert  teaching
+            div.card-box
+                div.card-img
+                    img(src="static/img/1.png")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorSection
+        h1 Our Sponsors
+
+        div#sponsor
+            img(src="/static/img/micro.png", alt="sponsor image", class = "spimage")
+            img(src="/static/img/apple.png", alt="sponsor image", class = "apple")
+            img(src="/static/img/skype.png", alt="sponsor image", class = "skype")
+            img(src="/static/img/hp.png", alt="sponsor image", class = "spimage")

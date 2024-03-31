@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 40px;
+    font-size: 19px;
+    margin-right: 40px;
+    font-family:fantasy;
+}
+
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: lightcoral;
+    padding: 2px 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+   font-size: 20px;
+    text-decoration: none;
+    padding: 18px 30px;
+}
+
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    padding-bottom: 20%;
+    height: 400px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    
+    /* background-color: red; */
+    background: center/cover no-repeat url("/static/dance.jpg");
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: white;
+    width: 67%;
+    margin: auto;
+    /* display: block; */
+}
+
+#missionSection h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    font-size: 32px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px 10px;
+    height: 200px;
+    display: inline-block;
+    border-color: lightpink;
+    background-color: pink;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.card-img{
+    height: 140px;
+    padding: 0 9px;
+
+}
+
+.card-img img{
+    height: inherit;
+    /* height: 100px;
+    padding: 0 14px; */
+    
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 17px;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: rgb(247, 168, 168);
+}
+
+#sponsorSection h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#sponsor{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.spimage{
+    height: 180px;
+    margin: 20px;
+}
+
+.apple{
+    height: 130px;
+    margin: 30px;
+    margin-bottom: 66px;
+}
+
+.skype{
+    height: 210px;
+    margin-bottom: 18px;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
